@@ -1,7 +1,5 @@
 # Portfólio Pessoal - Vinicius Meier Trevisan
 
-![Screenshot do Portfólio](./img/screenshot.png)
-
 Este é o repositório do meu portfólio pessoal, uma página web moderna e interativa, projetada para mostrar minhas habilidades, projetos e informações de contato de forma profissional e elegante. O site foi construído do zero, com foco em design limpo, responsividade e boas práticas de desenvolvimento web.
 
 **➡️ [Clique aqui para ver a versão online](https://vinimtrevisan.github.io/portfolio-vinicius/)**
