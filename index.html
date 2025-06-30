@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Vinicius Meier Trevisan</title>
+  <meta name="description" content="Portfólio de Vinicius Meier Trevisan, desenvolvedor back-end com projetos em Java, Python, MySQL e JavaScript." />
+  <meta name="keywords" content="desenvolvedor, back-end, java, python, mysql, javascript, portfolio" />
+  <meta name="author" content="Vinicius Meier Trevisan" />
+  <meta name="robots" content="index, follow" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">Vinicius Trevisan</div>
+      <div class="nav-links">
+        <a href="#about" class="active">Sobre Mim</a>
+        <a href="#technologies">Tecnologias</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
+      </div>
+      <button class="hamburger" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <button class="theme-toggle" aria-label="Toggle theme">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <main>
+    <header id="home">
+        <div class="header-content">
+            <div class="header-text">
+                <h1>Vinicius Meier Trevisan</h1>
+                <p>Desenvolvedor Back-end | Java • Python • MySQL</p>
+            </div>
+            <div class="header-photo">
+                <img src="img/foto-portfolio.jpeg" alt="Foto de Vinicius Meier Trevisan" class="profile-photo">
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+      <h2><i class="fas fa-user-circle" style="margin-right: 10px;"></i>Sobre Mim</h2>
+      <div class="about-content">
+        <div class="about-item">
+          <i class="fas fa-rocket"></i>
+          <div>
+            <h3>Quem Sou Eu</h3>
+            <p>Olá! Sou Vinicius, estudante de Engenharia de Software na PUC-PR, em busca da minha primeira oportunidade de estágio para crescer ao lado de profissionais experientes e contribuir com projetos reais.</p>
+            <p>Minha trajetória inclui um intercâmbio internacional, onde desenvolvi adaptabilidade, independência e fortes habilidades de comunicação — qualidades que hoje guiam meu caminho na tecnologia.</p>
+          </div>
+        </div>
+        <div class="about-item">
+          <i class="fas fa-lightbulb"></i>
+          <div>
+            <h3>Minhas Forças e Mentalidade</h3>
+            <ul>
+              <li><strong>Raciocínio analítico:</strong> Encaro problemas com lógica, buscando soluções limpas e eficazes, com foco em desenvolvimento back-end.</li>
+              <li><strong>Sede de aprendizado:</strong> Estou sempre estudando Java e explorando novas tecnologias, boas práticas e padrões de projeto.</li>
+              <li><strong>Confiável e organizado:</strong> Levo dedicação, responsabilidade e atenção aos detalhes em tudo que faço.</li>
+              <li><strong>Comunicação global:</strong> Fluente em inglês, estou preparado para colaborar com equipes diversas, local e internacionalmente.</li>
+              <li><strong>Resiliência e Trabalho em Equipe:</strong> O futebol me ensinou sobre colaboração e resiliência, e o intercâmbio consolidou minha maturidade e adaptabilidade.</li>
+              <li><strong>Motivação e Visão:</strong> Minha paixão é usar a programação para criar soluções de software que melhorem vidas e resolvam desafios do mundo real.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-item">
+          <i class="fas fa-bullseye"></i>
+          <div>
+            <h3>Meus Objetivos</h3>
+            <p>Busco um estágio para aplicar meus conhecimentos, ganhar experiência prática e aprender com profissionais talentosos. Tenho especial interesse em back-end, aprofundando meu entendimento de arquitetura de sistemas, bancos de dados e APIs.</p>
+            <p>Meu objetivo é me tornar um desenvolvedor que contribui para soluções inovadoras com impacto positivo na sociedade.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="technologies">
+        <h2><i class="fas fa-cogs" style="margin-right: 10px;"></i>Tecnologias</h2>
+        <div class="tech-grid">
+            <span class="tech-badge">Java</span>
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">PHP</span>
+            <span class="tech-badge">MySQL</span>
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">Git & GitHub</span>
+            <span class="tech-badge">APIs REST</span>
+            <span class="tech-badge">HTML & CSS</span>
+            <span class="tech-badge">Ollama</span>
+        </div>
+    </section>
+
+    <section id="projects">
+      <h2><i class="fas fa-project-diagram" style="margin-right: 10px;"></i>Projetos</h2>
+      <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="java">Java</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+        <button class="filter-btn" data-filter="web">Web (PHP/JS)</button>
+      </div>
+      <ul id="project-list">
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2><i class="fas fa-envelope-open-text" style="margin-right: 10px;"></i>Contato</h2>
+        <form action="https://formspree.io/f/xeokvoqo" method="POST">
+            <input type="text" id="name" name="name" required placeholder="Seu nome">
+            <input type="email" id="email" name="email" required placeholder="Seu email">
+            <textarea id="message" name="message" required placeholder="Sua mensagem"></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="mailto:vinimtrevisan@gmail.com">vinimtrevisan@gmail.com</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/vinicius-meier-trevisan-741b66329/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+      <a href="https://github.com/ViniMTrevisan" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </p>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
